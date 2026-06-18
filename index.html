@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Moda ECCI - Sara Viloria</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-morado">
+  <div class="container">
+    <a class="navbar-brand" href="#">Moda ECCI 2026</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="menu">
+      <ul class="navbar-nav ms-auto align-items-center">
+        <li class="nav-item"><a class="nav-link" href="#inicio" data-es="Inicio" data-en="Home">Inicio</a></li>
+        <li class="nav-item"><a class="nav-link" href="#conferencia" data-es="Conferencia" data-en="Conference">Conferencia</a></li>
+        <li class="nav-item"><a class="nav-link" href="#experiencia" data-es="Experiencia" data-en="Experience">Experiencia</a></li>
+        <li class="nav-item"><a class="nav-link" href="#galeria" data-es="Galería" data-en="Gallery">Galería</a></li>
+        <li class="nav-item"><a class="nav-link" href="#glosario" data-es="Glosario" data-en="Glossary">Glosario</a></li>
+        <li class="nav-item"><a class="nav-link" href="#conclusion" data-es="Conclusión" data-en="Conclusion">Conclusión</a></li>
+        <li class="nav-item ms-2">
+          <button class="btn-idioma" id="btnIdioma" onclick="cambiarIdioma()"> English</button>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<section id="inicio" class="hero text-center">
+  <div class="container">
+    <p class="hero-badge" data-es="Charla Internacional · ECCI 2026" data-en="International Talk · ECCI 2026">Charla Internacional · ECCI 2026</p>
+    <h1 data-es="Moda ECCI 2026" data-en="Fashion ECCI 2026">Moda ECCI 2026</h1>
+    <h2 data-es="Traigamos el color de vuelta" data-en="Let's bring color back">Traigamos el color de vuelta</h2>
+    <p data-es="Sitio creado para compartir mi experiencia en la conferencia de Sara Viloria durante el evento Moda ECCI." data-en="Website created to share my experience at Sara Viloria's conference during the Moda ECCI event.">Sitio creado para compartir mi experiencia en la conferencia de Sara Viloria durante el evento Moda ECCI.</p>
+    <a href="#conferencia" class="btn btn-personalizado mt-3" data-es="Ver conferencia" data-en="See conference">Ver conferencia</a>
+  </div>
+</section>
+
+<section id="conferencia" class="container py-5">
+  <h2 class="titulo" data-es="Sobre la conferencia" data-en="About the conference">Sobre la conferencia</h2>
+  <div class="row align-items-center g-4 mt-1">
+    <div class="col-md-6">
+      <p data-es="La conferencia fue orientada por Sara Viloria, artista visual y diseñadora reconocida por sus trabajos en color, creatividad y comunicación visual. Fue certificada como consultora de color por el Pantone Institute." data-en="The conference was led by Sara Viloria, a visual artist and designer recognized for her work in color, creativity and visual communication. She is certified as a color consultant by the Pantone Institute.">La conferencia fue orientada por Sara Viloria, artista visual y diseñadora reconocida por sus trabajos en color, creatividad y comunicación visual. Fue certificada como consultora de color por el Pantone Institute.</p>
+      <p class="mt-3" data-es="Durante la charla se abordaron temas como teoría del color, Pantone, semiología visual y la importancia del color en productos, marcas y experiencias digitales." data-en="The talk covered topics such as color theory, Pantone, visual semiology and the importance of color in products, brands and digital experiences.">Durante la charla se abordaron temas como teoría del color, Pantone, semiología visual y la importancia del color en productos, marcas y experiencias digitales.</p>
+    </div>
+    <div class="col-md-6 text-center">
+      <!-- Foto de la conferencia: pon tu imagen en img/conferencia.jpg -->
+      <img src="conferencia.jpg" alt="Conferencia Sara Viloria" class="img-fluid img-conferencia"
+           onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+      <div class="placeholder-img" style="display:none;">
+        <span data-es="Agrega: img/conferencia.jpg" data-en="Add: img/conferencia.jpg">Agrega: img/conferencia.jpg</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="experiencia" class="seccion-alt py-5">
+  <div class="container">
+    <h2 class="titulo" data-es="Mi experiencia en Moda ECCI" data-en="My experience at Moda ECCI">Mi experiencia en Moda ECCI</h2>
+    <div class="accordion mt-3" id="acordeon">
+
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#uno"
+            data-es="Aprendizajes obtenidos" data-en="Lessons learned">Aprendizajes obtenidos</button>
+        </h2>
+        <div id="uno" class="accordion-collapse collapse show">
+          <div class="accordion-body" data-es="Aprendí que el color no es solo estética. Un tono puede definir una marca, despertar un recuerdo o transmitir una emoción. Eso que antes veía como algo decorativo, ahora lo entiendo como una herramienta de comunicación poderosa." data-en="I learned that color is not just aesthetics. A tone can define a brand, awaken a memory or convey an emotion. What I previously saw as decorative, I now understand as a powerful communication tool.">Aprendí que el color no es solo estética. Un tono puede definir una marca, despertar un recuerdo o transmitir una emoción. Eso que antes veía como algo decorativo, ahora lo entiendo como una herramienta de comunicación poderosa.</div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#dos"
+            data-es="Aspectos que llamaron la atención" data-en="Aspects that caught my attention">Aspectos que llamaron la atención</button>
+        </h2>
+        <div id="dos" class="accordion-collapse collapse">
+          <div class="accordion-body" data-es="Ver cómo Sara Viloria conectó tres culturas —Chile, Venezuela y Colombia— solo con el lenguaje del color fue algo inesperado. El color no necesita traducción, eso me quedó grabado." data-en="Seeing how Sara Viloria connected three cultures —Chile, Venezuela and Colombia— through color language alone was unexpected. Color needs no translation, and that stayed with me.">Ver cómo Sara Viloria conectó tres culturas —Chile, Venezuela y Colombia— solo con el lenguaje del color fue algo inesperado. El color no necesita traducción, eso me quedó grabado.</div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#tres"
+            data-es="Relación con desarrollo de software" data-en="Connection with software development">Relación con desarrollo de software</button>
+        </h2>
+        <div id="tres" class="accordion-collapse collapse">
+          <div class="accordion-body" data-es="El diseño visual y el FrontEnd hablan el mismo idioma: color, jerarquía y emoción. Esta conferencia me mostró que elegir una paleta para una interfaz no es al azar, tiene un propósito detrás." data-en="Visual design and FrontEnd speak the same language: color, hierarchy and emotion. This conference showed me that choosing a color palette for an interface is not random — there is a purpose behind it.">El diseño visual y el FrontEnd hablan el mismo idioma: color, jerarquía y emoción. Esta conferencia me mostró que elegir una paleta para una interfaz no es al azar, tiene un propósito detrás.</div>
+        </div>
+      </div>
+
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#cuatro"
+            data-es="Reflexión personal" data-en="Personal reflection">Reflexión personal</button>
+        </h2>
+        <div id="cuatro" class="accordion-collapse collapse">
+          <div class="accordion-body" data-es="Salí del evento con una perspectiva diferente. Antes pensaba que moda y tecnología eran mundos opuestos, pero comparten algo fundamental: los dos buscan comunicar algo, generar una experiencia y dejar una huella en quien los recibe." data-en="I left the event with a different perspective. I used to think fashion and technology were opposite worlds, but they share something fundamental: both seek to communicate, generate an experience and leave a mark on whoever receives them.">Salí del evento con una perspectiva diferente. Antes pensaba que moda y tecnología eran mundos opuestos, pero comparten algo fundamental: los dos buscan comunicar algo, generar una experiencia y dejar una huella en quien los recibe.</div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section id="galeria" class="container py-5">
+  <h2 class="titulo" data-es="Galería fotográfica" data-en="Photo gallery">Galería fotográfica</h2>
+    <div class="col-6 col-md-3"><img src="foto1.jpg" alt="Foto 1" class="img-galeria" onerror="this.outerHTML='<div class=\'col-6 col-md-3\'><div class=\'foto-placeholder\'>Foto 1</div></div>'"></div>
+    <div class="col-6 col-md-3"><img src="foto2.jpg" alt="Foto 1" class="img-galeria" onerror="this.outerHTML='<div class=\'col-6 col-md-3\'><div class=\'foto-placeholder\'>Foto 2</div></div>'"></div>
+    <div class="col-6 col-md-3"><img src="foto3.jpg" alt="Foto 1" class="img-galeria" onerror="this.outerHTML='<div class=\'col-6 col-md-3\'><div class=\'foto-placeholder\'>Foto 3</div></div>'"></div>
+    <div class="col-6 col-md-3"><img src="foto4.jpg" alt="Foto 1" class="img-galeria" onerror="this.outerHTML='<div class=\'col-6 col-md-3\'><div class=\'foto-placeholder\'>Foto 4</div></div>'"></div>
+    <div class="col-6 col-md-3"><img src="foto5.jpg" alt="Foto 1" class="img-galeria" onerror="this.outerHTML='<div class=\'col-6 col-md-3\'><div class=\'foto-placeholder\'>Foto 5</div></div>'"></div>
+    <div class="col-6 col-md-3"><img src="foto6.jpg" alt="Foto 1" class="img-galeria" onerror="this.outerHTML='<div class=\'col-6 col-md-3\'><div class=\'foto-placeholder\'>Foto 6</div></div>'"></div>
+    <div class="col-6 col-md-3"><img src="foto7.jpg" alt="Foto 1" class="img-galeria" onerror="this.outerHTML='<div class=\'col-6 col-md-3\'><div class=\'foto-placeholder\'>Foto 7</div></div>'"></div>
+    <div class="col-6 col-md-3"><img src="foto8.jpg" alt="Foto 1" class="img-galeria" onerror="this.outerHTML='<div class=\'col-6 col-md-3\'><div class=\'foto-placeholder\'>Foto 8</div></div>'"></div>
+    <div class="col-6 col-md-3"><img src="foto9.jpg" alt="Foto 1" class="img-galeria" onerror="this.outerHTML='<div class=\'col-6 col-md-3\'><div class=\'foto-placeholder\'>Foto 9</div></div>'"></div>
+    <div class="col-6 col-md-3"><img src="foto10.jpg" alt="Foto 1" class="img-galeria" onerror="this.outerHTML='<div class=\'col-6 col-md-3\'><div class=\'foto-placeholder\'>Foto 10</div></div>'"></div>
+    <div class="col-6 col-md-3"><img src="foto11.jpg" alt="Foto 1" class="img-galeria" onerror="this.outerHTML='<div class=\'col-6 col-md-3\'><div class=\'foto-placeholder\'>Foto 11</div></div>'"></div>
+    <div class="col-6 col-md-3"><img src="foto12.jpg" alt="Foto 1" class="img-galeria" onerror="this.outerHTML='<div class=\'col-6 col-md-3\'><div class=\'foto-placeholder\'>Foto 12</div></div>'"></div>
+    <div class="col-6 col-md-3"><img src="foto13.jpg" alt="Foto 1" class="img-galeria" onerror="this.outerHTML='<div class=\'col-6 col-md-3\'><div class=\'foto-placeholder\'>Foto 13</div></div>'"></div>
+    <div class="col-6 col-md-3"><img src="foto14.jpg" alt="Foto 1" class="img-galeria" onerror="this.outerHTML='<div class=\'col-6 col-md-3\'><div class=\'foto-placeholder\'>Foto 14</div></div>'"></div>
+    <div class="col-6 col-md-3"><img src="foto15.jpg" alt="Foto 1" class="img-galeria" onerror="this.outerHTML='<div class=\'col-6 col-md-3\'><div class=\'foto-placeholder\'>Foto 15</div></div>'"></div>
+    <div class="col-6 col-md-3"><img src="foto16.jpg" alt="Foto 1" class="img-galeria" onerror="this.outerHTML='<div class=\'col-6 col-md-3\'><div class=\'foto-placeholder\'>Foto 16</div></div>'"></div>
+    <div class="col-6 col-md-3"><img src="foto17.jpg" alt="Foto 1" class="img-galeria" onerror="this.outerHTML='<div class=\'col-6 col-md-3\'><div class=\'foto-placeholder\'>Foto 17</div></div>'"></div>
+    <div class="col-6 col-md-3"><img src="foto18.jpg" alt="Foto 1" class="img-galeria" onerror="this.outerHTML='<div class=\'col-6 col-md-3\'><div class=\'foto-placeholder\'>Foto 18</div></div>'"></div>
+    <div class="col-6 col-md-3"><img src="foto19.jpg" alt="Foto 1" class="img-galeria" onerror="this.outerHTML='<div class=\'col-6 col-md-3\'><div class=\'foto-placeholder\'>Foto 19</div></div>'"></div>
+    <div class="col-6 col-md-3"><img src="foto20.jpg" alt="Foto 1" class="img-galeria" onerror="this.outerHTML='<div class=\'col-6 col-md-3\'><div class=\'foto-placeholder\'>Foto 20</div></div>'"></div>
+    <div class="col-6 col-md-3"><img src="foto21.jpg" alt="Foto 1" class="img-galeria" onerror="this.outerHTML='<div class=\'col-6 col-md-3\'><div class=\'foto-placeholder\'>Foto 21</div></div>'"></div>
+    <div class="col-6 col-md-3"><img src="foto22.jpg" alt="Foto 1" class="img-galeria" onerror="this.outerHTML='<div class=\'col-6 col-md-3\'><div class=\'foto-placeholder\'>Foto 22</div></div>'"></div>
+    <div class="col-6 col-md-3"><img src="foto23.jpg" alt="Foto 1" class="img-galeria" onerror="this.outerHTML='<div class=\'col-6 col-md-3\'><div class=\'foto-placeholder\'>Foto 23</div></div>'"></div>
+    <div class="col-6 col-md-3"><img src="foto24.jpg" alt="Foto 1" class="img-galeria" onerror="this.outerHTML='<div class=\'col-6 col-md-3\'><div class=\'foto-placeholder\'>Foto 24</div></div>'"></div>
+    <div class="col-6 col-md-3"><img src="foto25.jpg" alt="Foto 1" class="img-galeria" onerror="this.outerHTML='<div class=\'col-6 col-md-3\'><div class=\'foto-placeholder\'>Foto 25</div></div>'"></div>
+  
+  </div>
+</section>
+
+<section id="glosario" class="seccion-alt py-5">
+  <div class="container">
+    <h2 class="titulo" data-es="Glosario técnico" data-en="Technical glossary">Glosario técnico</h2>
+    <table class="table table-striped tabla-glosario mt-3">
+      <thead>
+        <tr>
+          <th data-es="Inglés" data-en="English">Inglés</th>
+          <th data-es="Español" data-en="Spanish">Español</th>
+          <th data-es="Definición" data-en="Definition">Definición</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>Color Theory</td><td>Teoría del color</td><td data-es="Estudio de cómo los colores interactúan visual y emocionalmente." data-en="Study of how colors interact visually and emotionally.">Estudio de cómo los colores interactúan visual y emocionalmente.</td></tr>
+        <tr><td>Pantone</td><td>Pantone</td><td data-es="Sistema global estandarizado de referencia de colores." data-en="Standardized global color reference system.">Sistema global estandarizado de referencia de colores.</td></tr>
+        <tr><td>Branding</td><td>Identidad de marca</td><td data-es="Creación de una identidad visual y emocional reconocible." data-en="Creation of a recognizable visual and emotional identity.">Creación de una identidad visual y emocional reconocible.</td></tr>
+        <tr><td>Typography</td><td>Tipografía</td><td data-es="Arte de organizar el texto para que sea legible y atractivo." data-en="Art of arranging text to be readable and visually appealing.">Arte de organizar el texto para que sea legible y atractivo.</td></tr>
+        <tr><td>Creativity</td><td>Creatividad</td><td data-es="Capacidad de generar ideas originales e innovadoras." data-en="Ability to generate original and innovative ideas.">Capacidad de generar ideas originales e innovadoras.</td></tr>
+        <tr><td>Contrast</td><td>Contraste</td><td data-es="Diferencia visual entre elementos de un diseño." data-en="Visual difference between design elements.">Diferencia visual entre elementos de un diseño.</td></tr>
+        <tr><td>Accessibility</td><td>Accesibilidad</td><td data-es="Diseño pensado para que cualquier persona pueda usarlo." data-en="Design intended to be usable by anyone.">Diseño pensado para que cualquier persona pueda usarlo.</td></tr>
+        <tr><td>User Interface</td><td>Interfaz de usuario</td><td data-es="Sistema visual a través del cual el usuario interactúa con el software." data-en="Visual system through which the user interacts with software.">Sistema visual a través del cual el usuario interactúa con el software.</td></tr>
+        <tr><td>User Experience</td><td>Experiencia de usuario</td><td data-es="Sensación general que tiene el usuario al usar un producto." data-en="Overall feeling a user has when using a product.">Sensación general que tiene el usuario al usar un producto.</td></tr>
+        <tr><td>Design Thinking</td><td>Pensamiento de diseño</td><td data-es="Metodología creativa para resolver problemas centrada en el usuario." data-en="Creative problem-solving methodology centered on the user.">Metodología creativa para resolver problemas centrada en el usuario.</td></tr>
+        <tr><td>Sustainability</td><td>Sostenibilidad</td><td data-es="Uso responsable de los recursos pensando en el futuro." data-en="Responsible use of resources thinking about the future.">Uso responsable de los recursos pensando en el futuro.</td></tr>
+        <tr><td>Circular Economy</td><td>Economía circular</td><td data-es="Sistema basado en reutilizar y regenerar recursos." data-en="System based on reusing and regenerating resources.">Sistema basado en reutilizar y regenerar recursos.</td></tr>
+        <tr><td>Visual Identity</td><td>Identidad visual</td><td data-es="Elementos gráficos que representan y diferencian una marca." data-en="Graphic elements that represent and differentiate a brand.">Elementos gráficos que representan y diferencian una marca.</td></tr>
+        <tr><td>Color Semiology</td><td>Semiología del color</td><td data-es="Estudio del significado simbólico que tienen los colores." data-en="Study of the symbolic meaning that colors carry.">Estudio del significado simbólico que tienen los colores.</td></tr>
+        <tr><td>Color Psychology</td><td>Psicología del color</td><td data-es="Cómo los colores influyen en las emociones y el comportamiento." data-en="How colors influence emotions and human behavior.">Cómo los colores influyen en las emociones y el comportamiento.</td></tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<section id="conclusion" class="container py-5">
+  <h2 class="titulo" data-es="Tecnología, Sostenibilidad y Economía Circular" data-en="Technology, Sustainability and Circular Economy">Tecnología, Sostenibilidad y Economía Circular</h2>
+  <p class="mt-3" data-es="La tecnología puede contribuir al cuidado ambiental mediante la optimización de recursos, la reducción de residuos y la promoción de procesos más sostenibles. Como futuros desarrolladores, tenemos la responsabilidad de construir soluciones digitales con propósito." data-en="Technology can contribute to environmental care through resource optimization, waste reduction and the promotion of more sustainable processes. As future developers, we have the responsibility to build digital solutions with purpose.">La tecnología puede contribuir al cuidado ambiental mediante la optimización de recursos, la reducción de residuos y la promoción de procesos más sostenibles. Como futuros desarrolladores, tenemos la responsabilidad de construir soluciones digitales con propósito.</p>
+  <button class="btn btn-personalizado mt-3" onclick="mostrarReflexion()" id="btnReflexion" data-es="Ver reflexión personal" data-en="See personal reflection">Ver reflexión personal</button>
+  <div id="reflexion" class="reflexion-box mt-4" style="display:none;">
+    <p data-es="Asistir al evento Moda ECCI me hizo ver las cosas diferente. Antes pensaba que moda y tecnología eran mundos que no tenían nada que ver, pero esta conferencia me mostró todo lo contrario. Los dos hablan de comunicar, de generar una experiencia y de dejar algo en quien lo recibe. Sara Viloria lo explicó con una claridad que no esperaba, y lo del color me impactó más de lo que pensé. Desde ese día, cuando trabajo en una interfaz, ya no elijo los colores al azar. Pienso en qué quiero transmitir y cómo puede sentirse quien lo ve. Eso, para mí, fue el mayor aprendizaje del evento." data-en="Attending the Moda ECCI event made me see things differently. I used to think fashion and technology had nothing to do with each other, but this conference showed me the opposite. Both are about communicating, generating an experience and leaving something with whoever receives it. Sara Viloria explained it with a clarity I did not expect, and the part about color impacted me more than I thought. Since that day, when I work on an interface, I no longer choose colors randomly. I think about what I want to convey and how it might feel to whoever sees it. That, for me, was the biggest takeaway from the event.">Asistir al evento Moda ECCI me hizo ver las cosas diferente. Antes pensaba que moda y tecnología eran mundos que no tenían nada que ver, pero esta conferencia me mostró todo lo contrario. Los dos hablan de comunicar, de generar una experiencia y de dejar algo en quien lo recibe. Sara Viloria lo explicó con una claridad que no esperaba, y lo del color me impactó más de lo que pensé. Desde ese día, cuando trabajo en una interfaz, ya no elijo los colores al azar. Pienso en qué quiero transmitir y cómo puede sentirse quien lo ve. Eso, para mí, fue el mayor aprendizaje del evento.</p>
+  </div>
+</section>
+
+<footer class="text-center py-4">
+  <p data-es="Página académica · Moda ECCI 2026 · Actividad ADSO 💜" data-en="Academic website · Moda ECCI 2026 · ADSO Activity 💜">Página académica · Moda ECCI 2026 · Actividad ADSO 💜</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
